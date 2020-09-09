@@ -1,0 +1,148 @@
+* {
+    font-family: monospace;
+}
+body {
+    padding: 0px;
+    /* background: #5f5c54;*/
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.white {
+    background:white;
+}
+
+.creme {
+    background: #e6e6e6;
+}
+
+.black {
+    background: black;
+}
+a {
+    text-decoration: none;
+    color: #37495e;
+    font-size: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    align-self: center;
+    align: center;
+}
+
+tr {
+    border: 1px solid #614646;
+}
+
+td {
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+   /* border-top: 1px solid #756d6f;*/
+    font-size: 1em;
+    align-content: start;
+    vertical-align: top;
+}
+
+.scndrow {
+    margin-top: 0px;
+    padding-top:0px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    font-style: italic;
+    color: darkgrey;
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+h1 {
+    color: #f23700;
+    font-size: 1.8em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2 {
+    font-size: 0.8em;
+    color: #ff6f37;
+    margin-top: 3px;
+}
+th {
+    font-size: 1em;
+    text-align: left;
+    color: #FFFFFF;
+    background:#756d6f;
+    padding: 5px;
+}
+
+img {
+    height: 24px;
+    width: 24px;
+}
+iframe {
+    width: 100%;
+    padding: 5px;
+    background: #6c6960;
+    font-size: 	2em;
+    color:white;
+    font-weight: bold;
+    border: solid 1px red;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border: none;
+}
+
+legend {
+    font-size: 2em;
+}
+
+.blockcontainer {
+    background: #d9d9d9;
+}
+.gridPage001 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 20px;
+    grid-template-areas:
+            " list "
+            " nav "
+;
+    grid-gap:10px 0px;
+}
+
+.list {
+    grid-area: list;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:gray;
+    font-family: monospace;
+    text-align:justify;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:gray;
+    font-family: monospace;
+    font-size: 1.45em;
+    text-align:justify;
+}
+
+ul {
+    margin: 0px;
+}
+
+
